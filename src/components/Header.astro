@@ -1,0 +1,155 @@
+﻿---
+const navItems = [
+  { label: 'Contribuye', href: '/contribuye' },
+  { label: 'Acerca de', href: '/acerca-de' },
+  { label: 'Noticias', href: '/noticias' },
+];
+---
+
+<header style="
+  position: sticky; top: 0; z-index: 100;
+  background-color: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: background-color 0.25s ease, border-color 0.25s ease;
+">
+  <div class="container-wide" style="padding-top: 1rem; padding-bottom: 1rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem;">
+
+    <!-- Logo -->
+    <a href="/" style="display: flex; align-items: center; flex-shrink: 0; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+      <img src="/images/logo/drone-lab-bolivia-logo.png" alt="Drone Lab Bolivia" width="130" height="auto" />
+    </a>
+
+    <!-- Desktop Nav + Toggle -->
+    <div style="display: flex; align-items: center; gap: 0.75rem;">
+      <nav class="desktop-nav" aria-label="Navegacion principal">
+        <ul style="display: flex; gap: 0.25rem; list-style: none; margin: 0; padding: 0;">
+          {navItems.map(item => (
+            <li>
+              <a
+                href={item.href}
+                style="display: inline-block; padding: 0.5rem 1.25rem; font-size: var(--font-xs); font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em; border-radius: 9999px; border: 1.5px solid transparent; color: var(--color-text); transition: all 0.2s ease;"
+                onmouseover="this.style.borderColor='var(--color-brand)';this.style.color='var(--color-brand)'"
+                onmouseout="this.style.borderColor='transparent';this.style.color='var(--color-text)'"
+              >
+                {item.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+
+      <!-- Theme Toggle -->
+      <button id="theme-toggle" aria-label="Cambiar tema">
+        <!-- Moon icon (shown in light mode) -->
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+        <!-- Sun icon (shown in dark mode) -->
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="5"/>
+          <line x1="12" y1="1" x2="12" y2="3"/>
+          <line x1="12" y1="21" x2="12" y2="23"/>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+          <line x1="1" y1="12" x2="3" y2="12"/>
+          <line x1="21" y1="12" x2="23" y2="12"/>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>
+      </button>
+
+      <!-- Mobile Hamburger -->
+      <button id="menu-toggle" class="mobile-menu-btn" aria-label="Abrir menu" style="
+        display: none;
+        width: 38px; height: 38px;
+        border-radius: 9999px;
+        border: 1.5px solid var(--color-border);
+        background: var(--color-surface);
+        color: var(--color-text);
+        cursor: pointer;
+        align-items: center; justify-content: center;
+        transition: all 0.2s ease;
+      ">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="4" y1="8" x2="20" y2="8"/>
+          <line x1="4" y1="16" x2="20" y2="16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" role="dialog" aria-modal="true" style="
+    display: none;
+    position: fixed; inset: 0; z-index: 200;
+    background-color: var(--color-bg);
+    padding: 1.5rem;
+    flex-direction: column;
+  ">
+    <div style="display: flex; justify-content: flex-end; margin-bottom: 3rem;">
+      <button id="menu-close" aria-label="Cerrar menu" style="
+        width: 38px; height: 38px;
+        border-radius: 9999px;
+        border: 1.5px solid var(--color-border);
+        background: var(--color-surface);
+        color: var(--color-text);
+        cursor: pointer;
+        display: flex; align-items: center; justify-content: center;
+      ">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="18" y1="6" x2="6" y2="18"/>
+          <line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <nav aria-label="Navegacion movil">
+      <ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.5rem;">
+        {navItems.map(item => (
+          <li>
+            <a href={item.href} style="display: block; padding: 1rem 0; font-size: var(--font-xl); font-weight: 900; border-bottom: 1px solid var(--color-border); color: var(--color-text);">
+              {item.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<style>
+  @media (max-width: 768px) {
+    .desktop-nav { display: none !important; }
+    .mobile-menu-btn { display: flex !important; }
+  }
+</style>
+
+<script>
+  // ── Theme toggle ──────────────────────────────
+  const toggle = document.getElementById('theme-toggle');
+  if (toggle) {
+    toggle.addEventListener('click', () => {
+      const current = document.documentElement.getAttribute('data-theme') || 'light';
+      const next = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    });
+  }
+
+  // ── Mobile menu ───────────────────────────────
+  const menuToggle = document.getElementById('menu-toggle');
+  const menuClose  = document.getElementById('menu-close');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  if (menuToggle && menuClose && mobileMenu) {
+    menuToggle.addEventListener('click', () => {
+      mobileMenu.style.display = 'flex';
+      document.body.style.overflow = 'hidden';
+    });
+    menuClose.addEventListener('click', () => {
+      mobileMenu.style.display = 'none';
+      document.body.style.overflow = '';
+    });
+  }
+</script>

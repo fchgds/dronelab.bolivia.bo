@@ -1,0 +1,65 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+  lang?: string;
+}
+
+const {
+  title = "Drone Lab Bolivia",
+  description = "Drone Lab Bolivia",
+  lang = "es",
+} = Astro.props;
+
+const fullTitle =
+  title === "Drone Lab Bolivia" ? title : `${title} – Drone Lab Bolivia`;
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="max-image-preview:large" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/images/logo/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/images/logo/drone-lab-bolivia-logo.png"
+      sizes="192x192"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="/images/logo/drone-lab-bolivia-logo.png"
+    />
+    <meta name="generator" content={Astro.generator} />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <!-- No-FOUC: apply theme before first paint -->
+    <script is:inline>
+      (function () {
+        var saved = localStorage.getItem("theme");
+        var prefersDark = window.matchMedia(
+          "(prefers-color-scheme: dark)",
+        ).matches;
+        var theme = saved || (prefersDark ? "dark" : "light");
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Saltar al contenido</a>
+    <slot name="header" />
+    <main id="main-content">
+      <slot />
+    </main>
+    <slot name="footer" />
+  </body>
+</html>

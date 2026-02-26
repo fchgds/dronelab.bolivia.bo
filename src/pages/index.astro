@@ -1,0 +1,168 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<BaseLayout title="Drone Lab Bolivia | Innovación y Tecnología Drone">
+  <Header slot="header" />
+
+  <main>
+    <!-- Hero Section -->
+    <section
+      class="relative h-[90vh] min-h-[700px] flex items-center overflow-hidden bg-black"
+    >
+      <div class="absolute inset-0 z-0">
+        <img
+          src="/images/hero/hero-bg.jpg"
+          alt=""
+          class="w-full h-full object-cover scale-105 opacity-60"
+        />
+        <div
+          class="absolute inset-0 bg-gradient-to-r from-black via-black/40 to-transparent"
+        >
+        </div>
+      </div>
+
+      <div class="container-wide relative z-10 text-white">
+        <div class="max-w-4xl">
+          <span
+            class="inline-block px-12 py-4 bg-highlight text-black rounded-lg text-xs font-black uppercase tracking-widest mb-24"
+          >
+            Líderes en Tecnología Drone
+          </span>
+          <h1 class="font-black mb-32 tracking-tight">
+            Innovación <br />
+            <span class="text-highlight">Desde el Cielo</span>
+          </h1>
+          <p
+            class="text-lg mb-48 opacity-90 font-medium max-w-2xl leading-relaxed text-gray-200"
+          >
+            Exploramos nuevas fronteras en agricultura, urbanismo y conservación
+            utilizando tecnología drone de vanguardia para transformar
+            realidades en Bolivia.
+          </p>
+          <div class="flex flex-wrap gap-16">
+            <a
+              href="/acerca-de"
+              class="btn bg-brand text-white border-brand hover:bg-white hover:text-brand px-48 py-20 text-lg"
+            >
+              Conoce más
+            </a>
+            <a
+              href="/noticias"
+              class="btn bg-transparent border-white text-white hover:bg-white hover:text-black px-48 py-20 text-lg"
+            >
+              Ver proyectos
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services/Features -->
+    <section class="py-96 bg-white">
+      <div class="container-wide">
+        <div class="max-w-3xl mx-auto text-center mb-64">
+          <h2 class="font-black mb-16 text-black">
+            Uniendo Tecnología e Impacto Social
+          </h2>
+          <div class="w-64 h-4 bg-brand mx-auto mb-32 rounded-full"></div>
+          <p class="text-lg text-gray-600 font-medium">
+            Bolivia Flying Labs democratiza el acceso a la tecnología drone,
+            aplicándola en proyectos que generan un cambio real y sostenible.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-32">
+          <div
+            class="group p-48 bg-gray-100 rounded-[2.5rem] border border-gray-200 transition-all hover:bg-white hover:shadow-2xl hover:-translate-y-2"
+          >
+            <div
+              class="w-64 h-64 bg-brand text-white rounded-2xl flex items-center justify-center mb-32 font-black text-xl shadow-lg shadow-brand/20 group-hover:rotate-6 transition-transform"
+            >
+              01
+            </div>
+            <h3 class="font-black mb-16 text-black italic">Agricultura</h3>
+            <p class="text-gray-600 leading-relaxed">
+              Optimizamos la gestión ganadera y agrícola con mapeo de precisión
+              y análisis de datos geoespaciales críticos.
+            </p>
+          </div>
+
+          <div
+            class="group p-48 bg-gray-100 rounded-[2.5rem] border border-gray-200 transition-all hover:bg-white hover:shadow-2xl hover:-translate-y-2"
+          >
+            <div
+              class="w-64 h-64 bg-highlight text-black rounded-2xl flex items-center justify-center mb-32 font-black text-xl shadow-lg shadow-highlight/20 group-hover:rotate-6 transition-transform"
+            >
+              02
+            </div>
+            <h3 class="font-black mb-16 text-black italic">Medio Ambiente</h3>
+            <p class="text-gray-600 leading-relaxed">
+              Prevenimos incendios forestales en la Chiquitanía con sistemas
+              avanzados de monitoreo aéreo y alerta temprana.
+            </p>
+          </div>
+
+          <div
+            class="group p-48 bg-gray-100 rounded-[2.5rem] border border-gray-200 transition-all hover:bg-white hover:shadow-2xl hover:-translate-y-2"
+          >
+            <div
+              class="w-64 h-64 bg-accent text-brand rounded-2xl flex items-center justify-center mb-32 font-black text-xl shadow-lg shadow-accent/20 group-hover:rotate-6 transition-transform"
+            >
+              03
+            </div>
+            <h3 class="font-black mb-16 text-black italic">Educación</h3>
+            <p class="text-gray-600 leading-relaxed">
+              Capacitamos a las nuevas generaciones en modelos de negocio
+              basados en drones para el desarrollo local.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Impact Stats -->
+    <section class="py-96 bg-brand text-white text-center">
+      <div class="container-wide">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-48">
+          <div>
+            <div class="text-3xl font-black leading-none mb-8 text-highlight">
+              +500
+            </div>
+            <div class="text-xs font-bold uppercase tracking-widest opacity-80">
+              Hectáreas Mapeadas
+            </div>
+          </div>
+          <div>
+            <div class="text-3xl font-black leading-none mb-8 text-highlight">
+              +120
+            </div>
+            <div class="text-xs font-bold uppercase tracking-widest opacity-80">
+              Jóvenes Capacitados
+            </div>
+          </div>
+          <div>
+            <div class="text-3xl font-black leading-none mb-8 text-highlight">
+              +15
+            </div>
+            <div class="text-xs font-bold uppercase tracking-widest opacity-80">
+              Proyectos Activos
+            </div>
+          </div>
+          <div>
+            <div class="text-3xl font-black leading-none mb-8 text-highlight">
+              100%
+            </div>
+            <div class="text-xs font-bold uppercase tracking-widest opacity-80">
+              Impacto Social
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer slot="footer" />
+</BaseLayout>
