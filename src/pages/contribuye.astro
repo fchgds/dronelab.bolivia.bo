@@ -8,13 +8,13 @@ import Footer from '../components/Footer.astro';
   <Header slot="header" />
   
   <main>
-    <header class="py-96 bg-brand text-white">
+    <header class="py-96 bg-primary text-white">
       <div class="container-wide">
         <div class="max-w-3xl">
           <span class="inline-block px-12 py-4 bg-highlight text-black rounded-lg text-xs font-black uppercase tracking-widest mb-24">
             Sumate a la red
           </span>
-          <h1 class="font-black mb-24 tracking-tight">Forma parte del <br/><span class="text-highlight">Cambio Tecnologico</span></h1>
+          <h1 class="font-black mb-24 tracking-tight" style="color: white;">Forma parte del <br/><span class="text-highlight">Cambio Tecnologico</span></h1>
           <p class="text-lg opacity-90 font-medium leading-relaxed">
             Existen multiples formas de apoyar nuestra mision, desde donaciones hasta colaboraciones tecnicas y voluntariados.
           </p>
@@ -22,22 +22,22 @@ import Footer from '../components/Footer.astro';
       </div>
     </header>
 
-    <section class="py-96 bg-white">
+    <section class="py-96 bg-base">
       <div class="container-wide">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-32">
-          <div class="p-64 bg-gray-100 rounded-[2.5rem] border border-gray-200">
-            <h2 class="font-black mb-24 text-black">Donaciones</h2>
-            <p class="text-base text-gray-600 leading-relaxed mb-32">
+          <div class="p-64 bg-surface rounded-[2.5rem] border border-border">
+            <h2 class="font-black mb-24 text-contrast">Donaciones</h2>
+            <p class="text-base text-muted leading-relaxed mb-32">
               Tu apoyo financiero nos permite adquirir equipos de ultima generacion y financiar expediciones de mapeo en areas remotas de Bolivia.
             </p>
-            <a href="mailto:info@dronelab.bolivia.bo" class="btn bg-brand text-white border-brand hover:bg-black">
+            <a href="mailto:info@dronelab.bolivia.bo" class="btn bg-primary text-white border-primary hover:bg-black">
               Contactar para donar
             </a>
           </div>
 
-          <div class="p-64 bg-gray-100 rounded-[2.5rem] border border-gray-200">
-            <h2 class="font-black mb-24 text-black">Voluntariado Tecnico</h2>
-            <p class="text-base text-gray-600 leading-relaxed mb-32">
+          <div class="p-64 bg-surface rounded-[2.5rem] border border-border">
+            <h2 class="font-black mb-24 text-contrast">Voluntariado Tecnico</h2>
+            <p class="text-base text-muted leading-relaxed mb-32">
               Si eres piloto de drones, analista GIS o experto en conservacion, tus habilidades pueden marcar la diferencia en nuestros proyectos.
             </p>
             <a href="mailto:info@dronelab.bolivia.bo" class="btn bg-highlight text-black border-highlight hover:bg-black hover:text-white">
@@ -51,10 +51,10 @@ import Footer from '../components/Footer.astro';
     <section class="py-96 text-center">
       <div class="container-constrained">
         <h2 class="font-black mb-24">Tienes una idea para un proyecto?</h2>
-        <p class="text-lg text-gray-600 mb-48">
+        <p class="text-lg text-muted mb-48">
           Estamos siempre abiertos a colaborar con instituciones academicas, ONGs y el sector privado.
         </p>
-        <a href="mailto:info@dronelab.bolivia.bo" class="btn bg-brand text-white hover:bg-highlight hover:text-black">
+        <a href="mailto:info@dronelab.bolivia.bo" class="btn bg-primary text-white hover:bg-highlight hover:text-black">
           Escribenos
         </a>
       </div>

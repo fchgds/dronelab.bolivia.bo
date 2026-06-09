@@ -8,6 +8,7 @@
   --color-primary: #503AA8;
   --color-secondary: #FFEE58;
   --color-accent: #F6CFF4;
+  --color-brand-text: #503AA8;
 
   --color-bg: #FFFFFF;
   --color-surface: #F8FAFC;
@@ -19,7 +20,7 @@
 
   --color-base: var(--color-bg);
   --color-contrast: var(--color-text);
-  --color-brand: var(--color-primary);
+  --color-brand: var(--color-brand-text);
   --color-highlight: var(--color-secondary);
 
   --font-xs: 0.75rem;
@@ -54,9 +55,10 @@
   --color-surface: #0F172A;
   --color-border: #1E293B;
   --color-text: #F1F5F9;
-  --color-muted: #94A3B8;
+  --color-muted: #CBD5E1;
   --color-card-bg: #0F172A;
   --color-card-border: #1E293B;
+  --color-brand-text: #B8A9FF;
 }
 
 /* System preference fallback before JS initializes */
@@ -66,9 +68,10 @@
     --color-surface: #0F172A;
     --color-border: #1E293B;
     --color-text: #F1F5F9;
-    --color-muted: #94A3B8;
+    --color-muted: #CBD5E1;
     --color-card-bg: #0F172A;
     --color-card-border: #1E293B;
+    --color-brand-text: #B8A9FF;
   }
 }
 
@@ -80,6 +83,8 @@
   --color-contrast: var(--color-contrast);
   --color-brand: var(--color-brand);
   --color-highlight: var(--color-highlight);
+  --color-primary: var(--color-primary);
+  --color-accent: var(--color-accent);
   --color-surface: var(--color-surface);
   --color-border: var(--color-border);
   --color-muted: var(--color-muted);
@@ -275,7 +280,7 @@ img {
   border: 2px solid transparent;
   cursor: pointer;
   transition: all 0.2s ease;
-  background-color: var(--color-brand);
+  background-color: var(--color-primary);
   color: white;
 }
 
