@@ -1,0 +1,188 @@
+- generic [active] [ref=e1]:
+  - link "Saltar al contenido" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Drone Lab Bolivia" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Drone Lab Bolivia" [ref=e6]
+      - generic [ref=e7]:
+        - navigation "Navegacion principal" [ref=e8]:
+          - list [ref=e9]:
+            - listitem [ref=e10]:
+              - link "Contribuye" [ref=e11] [cursor=pointer]:
+                - /url: /contribuye
+            - listitem [ref=e12]:
+              - link "Acerca de" [ref=e13] [cursor=pointer]:
+                - /url: /acerca-de
+            - listitem [ref=e14]:
+              - link "Noticias" [ref=e15] [cursor=pointer]:
+                - /url: /noticias
+        - button "Cambiar tema" [ref=e16] [cursor=pointer]:
+          - img [ref=e17]
+  - main [ref=e19]:
+    - main [ref=e20]:
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - generic [ref=e24]: Noticias y Proyectos
+          - heading "Lo ultimo de Drone Lab Bolivia" [level=1] [ref=e25]:
+            - text: Lo ultimo de
+            - text: Drone Lab Bolivia
+        - paragraph [ref=e26]: Descubre nuestros proyectos de campo, eventos y avances en tecnologia drone.
+      - generic [ref=e28]:
+        - paragraph [ref=e29]: Articulo destacado
+        - 'link "Participantes y facilitadores del taller Drones, IA y AgTech para el Desarrollo Productivo en Buena Vista Educación 17 may 2026 Drones, IA y AgTech para el Desarrollo Productivo: Capacitando a la Juventud de Buena Vista En Bolivia Flying Labs creemos que la forma más poderosa de acercar la tecnología drone a nuestras comunidades es ponerla, junto con la inteligencia artificial y el AgTech, en mano... Leer mas" [ref=e30] [cursor=pointer]':
+          - /url: /drones-ia-agtech-buena-vista-2026
+          - generic [ref=e31]:
+            - img "Participantes y facilitadores del taller Drones, IA y AgTech para el Desarrollo Productivo en Buena Vista" [ref=e33]
+            - generic [ref=e34]:
+              - generic [ref=e35]:
+                - generic [ref=e36]: Educación
+                - time [ref=e37]: 17 may 2026
+              - 'heading "Drones, IA y AgTech para el Desarrollo Productivo: Capacitando a la Juventud de Buena Vista" [level=2] [ref=e38]'
+              - paragraph [ref=e39]: En Bolivia Flying Labs creemos que la forma más poderosa de acercar la tecnología drone a nuestras comunidades es ponerla, junto con la inteligencia artificial y el AgTech, en mano...
+              - generic [ref=e40]:
+                - text: Leer mas
+                - img [ref=e41]
+      - generic [ref=e44]:
+        - paragraph [ref=e45]: Todos los articulos
+        - generic [ref=e46]:
+          - article [ref=e47]:
+            - link "Equipo de Bolivia Flying Labs presentando el drone Wingtra en FEXPO Pinos" [ref=e48] [cursor=pointer]:
+              - /url: /fexpo-pinos-event
+              - img "Equipo de Bolivia Flying Labs presentando el drone Wingtra en FEXPO Pinos" [ref=e49]
+            - generic [ref=e50]:
+              - generic [ref=e51]:
+                - generic [ref=e52]: Eventos
+                - time [ref=e53]: 16 mar 2025
+              - heading "FEXPO Pinos Event / Nota de Prensa" [level=3] [ref=e54]:
+                - link "FEXPO Pinos Event / Nota de Prensa" [ref=e55] [cursor=pointer]:
+                  - /url: /fexpo-pinos-event
+              - paragraph [ref=e56]: Bolivia Flying Labs showcased possibilities at FEXPO Pinos in Santa Cruz de la Sierra on March 17, 2025, demon...
+              - link "Leer mas" [ref=e57] [cursor=pointer]:
+                - /url: /fexpo-pinos-event
+                - text: Leer mas
+                - img [ref=e58]
+          - article [ref=e60]:
+            - link "Vista aérea de caminos y terreno para la planificación urbana de Los Pinos" [ref=e61] [cursor=pointer]:
+              - /url: /los-pinos-urban-planning
+              - img "Vista aérea de caminos y terreno para la planificación urbana de Los Pinos" [ref=e62]
+            - generic [ref=e63]:
+              - generic [ref=e64]:
+                - generic [ref=e65]: Urbanismo
+                - time [ref=e66]: 14 ene 2025
+              - 'heading "Drones y Urbanismo: Innovando en la Planificación de Los Pinos" [level=3] [ref=e67]':
+                - 'link "Drones y Urbanismo: Innovando en la Planificación de Los Pinos" [ref=e68] [cursor=pointer]':
+                  - /url: /los-pinos-urban-planning
+              - paragraph [ref=e69]: El avance de la tecnología drone continúa revolucionando diversas industrias, y el sector inmobiliario no es l...
+              - link "Leer mas" [ref=e70] [cursor=pointer]:
+                - /url: /los-pinos-urban-planning
+                - text: Leer mas
+                - img [ref=e71]
+          - article [ref=e73]:
+            - link "Modelo aéreo generado con datos drone para el proyecto ganadero La Niña" [ref=e74] [cursor=pointer]:
+              - /url: /ganaderia-drone-technology
+              - img "Modelo aéreo generado con datos drone para el proyecto ganadero La Niña" [ref=e75]
+            - generic [ref=e76]:
+              - generic [ref=e77]:
+                - generic [ref=e78]: Ganadería
+                - time [ref=e79]: 9 dic 2024
+              - heading "Explorando Nuevas Fronteras en la Ganadería con Tecnología Drone" [level=3] [ref=e80]:
+                - link "Explorando Nuevas Fronteras en la Ganadería con Tecnología Drone" [ref=e81] [cursor=pointer]:
+                  - /url: /ganaderia-drone-technology
+              - paragraph [ref=e82]: En el marco de la modernización del sector ganadero en Bolivia, Bolivia Flying Labs y la Federación de Ganader...
+              - link "Leer mas" [ref=e83] [cursor=pointer]:
+                - /url: /ganaderia-drone-technology
+                - text: Leer mas
+                - img [ref=e84]
+          - article [ref=e86]:
+            - link "Jóvenes participantes del taller de emprendimiento con drones" [ref=e87] [cursor=pointer]:
+              - /url: /empowering-bolivian-youth
+              - img "Jóvenes participantes del taller de emprendimiento con drones" [ref=e88]
+            - generic [ref=e89]:
+              - generic [ref=e90]:
+                - generic [ref=e91]: Educación
+                - time [ref=e92]: 19 oct 2024
+              - 'heading "Drones in Business: Empowering Bolivian Youth to Take Flight" [level=3] [ref=e93]':
+                - 'link "Drones in Business: Empowering Bolivian Youth to Take Flight" [ref=e94] [cursor=pointer]':
+                  - /url: /empowering-bolivian-youth
+              - paragraph [ref=e95]: At Bolivia Flying Labs, we recognize that training is a cornerstone of our mission to empower local communitie...
+              - link "Leer mas" [ref=e96] [cursor=pointer]:
+                - /url: /empowering-bolivian-youth
+                - text: Leer mas
+                - img [ref=e97]
+          - article [ref=e99]:
+            - 'link "ExpoDron 2024: Un espectáculo de tecnología que deslumbró a Santa Cruz" [ref=e100] [cursor=pointer]':
+              - /url: /expodron-2024
+              - 'img "ExpoDron 2024: Un espectáculo de tecnología que deslumbró a Santa Cruz" [ref=e101]'
+            - generic [ref=e102]:
+              - generic [ref=e103]:
+                - generic [ref=e104]: Uncategorized
+                - time [ref=e105]: 17 ago 2024
+              - 'heading "ExpoDron 2024: Un espectáculo de tecnología que deslumbró a Santa Cruz" [level=3] [ref=e106]':
+                - 'link "ExpoDron 2024: Un espectáculo de tecnología que deslumbró a Santa Cruz" [ref=e107] [cursor=pointer]':
+                  - /url: /expodron-2024
+              - paragraph [ref=e108]: El fin de semana del 17 y 18 de agosto, de 9:00 a 21:00 hrs, el salón Chané de la Fexpocruz se convirtió en el...
+              - link "Leer mas" [ref=e109] [cursor=pointer]:
+                - /url: /expodron-2024
+                - text: Leer mas
+                - img [ref=e110]
+          - article [ref=e112]:
+            - link "Equipo de Firehawk monitoreando el área sensible de El Portón para prevenir incendios forestales" [ref=e113] [cursor=pointer]:
+              - /url: /firehawk-project
+              - img "Equipo de Firehawk monitoreando el área sensible de El Portón para prevenir incendios forestales" [ref=e114]
+            - generic [ref=e115]:
+              - generic [ref=e116]:
+                - generic [ref=e117]: Proyectos
+                - time [ref=e118]: 31 oct 2023
+              - 'heading "Firehawk: Pioneering Accessible Technology for a Sustainable Future" [level=3] [ref=e119]':
+                - 'link "Firehawk: Pioneering Accessible Technology for a Sustainable Future" [ref=e120] [cursor=pointer]':
+                  - /url: /firehawk-project
+              - paragraph [ref=e121]: "**Join Us for the Upcoming Webinar to Learn More!** ..."
+              - link "Leer mas" [ref=e122] [cursor=pointer]:
+                - /url: /firehawk-project
+                - text: Leer mas
+                - img [ref=e123]
+          - article [ref=e125]:
+            - link "Bolivia unida por el planeta para el Wingtra Earth Day Challenge" [ref=e126] [cursor=pointer]:
+              - /url: /earth-day-2022-climate-action
+              - img "Bolivia unida por el planeta para el Wingtra Earth Day Challenge" [ref=e127]
+            - generic [ref=e128]:
+              - generic [ref=e129]:
+                - generic [ref=e130]: Medio Ambiente
+                - time [ref=e131]: 21 abr 2022
+              - 'heading "EARTH DAY 2022: Prevent Forest Fires in Chiquitanía" [level=3] [ref=e132]':
+                - 'link "EARTH DAY 2022: Prevent Forest Fires in Chiquitanía" [ref=e133] [cursor=pointer]':
+                  - /url: /earth-day-2022-climate-action
+              - paragraph [ref=e134]: Forest fires have become very common in the Chiquitanía territory due to the non-existent planning, management...
+              - link "Leer mas" [ref=e135] [cursor=pointer]:
+                - /url: /earth-day-2022-climate-action
+                - text: Leer mas
+                - img [ref=e136]
+          - article [ref=e138]:
+            - link "Miembros de Flying Labs de Latinoamérica reunidos en Bolivia" [ref=e139] [cursor=pointer]:
+              - /url: /network-support
+              - img "Miembros de Flying Labs de Latinoamérica reunidos en Bolivia" [ref=e140]
+            - generic [ref=e141]:
+              - generic [ref=e142]:
+                - generic [ref=e143]: Comunidad
+                - time [ref=e144]: 29 sept 2021
+              - heading "“It Takes a Village to Build a Successful Network of Driven Experts”" [level=3] [ref=e145]:
+                - link "“It Takes a Village to Build a Successful Network of Driven Experts”" [ref=e146] [cursor=pointer]:
+                  - /url: /network-support
+              - paragraph [ref=e147]: "**Bolivia Flying Labs reflects on the massive support they have received from Flying Labs members since joinin..."
+              - link "Leer mas" [ref=e148] [cursor=pointer]:
+                - /url: /network-support
+                - text: Leer mas
+                - img [ref=e149]
+  - contentinfo [ref=e151]:
+    - generic [ref=e152]:
+      - generic:
+        - link:
+          - /url: /
+      - generic [ref=e153]:
+        - paragraph [ref=e154]: © 2026 Drone Lab Bolivia
+        - paragraph [ref=e155]:
+          - text: Powered by
+          - link "Zoftco" [ref=e156] [cursor=pointer]:
+            - /url: https://zoftco.com

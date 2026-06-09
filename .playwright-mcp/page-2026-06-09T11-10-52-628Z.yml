@@ -1,0 +1,78 @@
+- generic [active] [ref=e1]:
+  - link "Saltar al contenido" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Drone Lab Bolivia" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Drone Lab Bolivia" [ref=e6]
+      - generic [ref=e7]:
+        - navigation "Navegacion principal" [ref=e8]:
+          - list [ref=e9]:
+            - listitem [ref=e10]:
+              - link "Contribuye" [ref=e11] [cursor=pointer]:
+                - /url: /contribuye
+            - listitem [ref=e12]:
+              - link "Acerca de" [ref=e13] [cursor=pointer]:
+                - /url: /acerca-de
+            - listitem [ref=e14]:
+              - link "Noticias" [ref=e15] [cursor=pointer]:
+                - /url: /noticias
+        - button "Cambiar tema" [ref=e16] [cursor=pointer]:
+          - img [ref=e17]
+  - main [ref=e19]:
+    - main [ref=e20]:
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - link "← Noticias" [ref=e24] [cursor=pointer]:
+            - /url: /noticias
+          - generic [ref=e25]: /
+          - generic [ref=e26]: Uncategorized
+          - time [ref=e27]: 17 de agosto de 2024
+        - 'heading "ExpoDron 2024: Un espectáculo de tecnología que deslumbró a Santa Cruz" [level=1] [ref=e28]'
+        - paragraph [ref=e29]: Por dronelabadmin
+      - 'img "ExpoDron 2024: Un espectáculo de tecnología que deslumbró a Santa Cruz" [ref=e32]'
+      - generic [ref=e33]:
+        - generic [ref=e35]:
+          - paragraph [ref=e36]: El fin de semana del 17 y 18 de agosto, de 9:00 a 21:00 hrs, el salón Chané de la Fexpocruz se convirtió en el epicentro de la innovación, donde visitantes y entusiastas de la tecnología pudieron sumergirse en el fascinante mundo de los drones.
+          - paragraph [ref=e37]:
+            - strong [ref=e38]: "Santa Cruz fue testigo de un evento sin precedentes: la ExpoDron 2024, una feria que no solo exhibió lo último en tecnología de drones, sino que también iluminó el cielo cruceño con un show de drones espectacular."
+          - paragraph [ref=e39]:
+            - strong [ref=e40]: Un show de drones que dejó a todos boquiabiertos
+          - paragraph [ref=e41]: Uno de los momentos más destacados de la ExpoDron 2024 fue, sin duda, el show de drones al aire libre realizado en Santa Cruz. Una empresa colombiana, experta en este tipo de espectáculos, fue la encargada de orquestar esta danza aérea de luces y tecnología, que dibujó figuras impresionantes en el cielo nocturno, causando admiración y asombro entre los espectadores.
+          - paragraph [ref=e42]:
+            - img "Show de drones en el cielo nocturno de Santa Cruz" [ref=e43]
+          - paragraph [ref=e44]:
+            - strong [ref=e45]: "Más allá del espectáculo: Conociendo las ventajas de la Tecnología No Tripulada"
+          - paragraph [ref=e46]: La ExpoDron 2024 no se limitó a deslumbrar con su show de drones. La feria también ofreció a los asistentes la oportunidad de conocer de cerca las múltiples ventajas y aplicaciones de la Tecnología No Tripulada. Empresas y expertos del sector exhibieron sus productos y servicios, brindando información detallada sobre cómo los drones están revolucionando diversos campos, desde la agricultura y la construcción hasta la seguridad y la logística.
+          - paragraph [ref=e47]:
+            - strong [ref=e48]: "Flying Labs: Impulsando el cambio social y ambiental con drones"
+          - paragraph [ref=e49]: La ExpoDron 2024 también fue escenario de una presentación inspiradora sobre el poder de los drones para generar un impacto positivo en nuestras comunidades. Mfon Udechukwu, Coordinadora de Comunidad y Programa de We Robotics – Flying Labs Global, y Mitzy Castillo, de Panama Flying Labs, compartieron la visión y el trabajo de Flying Labs, una red global de expertos en tecnología de drones que colabora con organizaciones locales para desarrollar proyectos que aborden desafíos sociales y ambientales en países en desarrollo. Su presentación destacó cómo los drones pueden ser utilizados para mejorar la agricultura, monitorear la deforestación, brindar ayuda en situaciones de desastre y mucho más, demostrando el potencial de esta tecnología para impulsar el cambio y construir un futuro más sostenible.
+          - paragraph [ref=e50]:
+            - img "Presentación de Flying Labs en ExpoDron 2024" [ref=e51]
+          - paragraph [ref=e52]:
+            - strong [ref=e53]: Empoderando a los jóvenes a través de la tecnología
+          - paragraph [ref=e54]:
+            - img "Grupo de jóvenes participantes del proyecto EmpoderaT en ExpoDron" [ref=e55]
+          - paragraph [ref=e56]: La ExpoDron 2024 también tuvo un impacto social positivo. En colaboración con la Fundación Trabajo Empresa, jóvenes del proyecto EmpoderaT del municipio de Buena Vista tuvieron la oportunidad de participar en la feria y aprender más sobre la tecnología de drones. Esta iniciativa busca empoderar a las nuevas generaciones, brindándoles acceso a conocimientos y herramientas que les permitan desarrollar habilidades y abrirse camino en el mundo laboral.
+          - paragraph [ref=e57]:
+            - img "Vista de los stands y visitantes en la ExpoDron 2024" [ref=e58]
+          - paragraph [ref=e59]:
+            - strong [ref=e60]: "ExpoDron 2024: Un evento que marcó un hito en Santa Cruz"
+          - paragraph [ref=e61]: La ExpoDron 2024 fue mucho más que una simple feria de tecnología. Fue un evento que inspiró, educó y entretuvo, dejando una huella imborrable en la ciudad de Santa Cruz. El espectáculo de drones, la exhibición de productos y servicios, y la participación de jóvenes del proyecto EmpoderaT se combinaron para crear una experiencia única e inolvidable.
+          - paragraph [ref=e62]:
+            - img "Visitantes explorando las exhibiciones de drones" [ref=e63]
+          - paragraph [ref=e64]: La ExpoDron 2024 demostró el potencial de la tecnología de drones y su capacidad para transformar nuestra sociedad. Sin duda, este evento marcará un antes y un después en la forma en que Santa Cruz percibe y adopta esta innovadora tecnología.
+        - link "← Volver a Noticias" [ref=e66] [cursor=pointer]:
+          - /url: /noticias
+  - contentinfo [ref=e67]:
+    - generic [ref=e68]:
+      - generic:
+        - link:
+          - /url: /
+      - generic [ref=e69]:
+        - paragraph [ref=e70]: © 2026 Drone Lab Bolivia
+        - paragraph [ref=e71]:
+          - text: Powered by
+          - link "Zoftco" [ref=e72] [cursor=pointer]:
+            - /url: https://zoftco.com

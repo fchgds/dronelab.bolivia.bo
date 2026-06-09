@@ -1,0 +1,76 @@
+- generic [active] [ref=e1]:
+  - link "Saltar al contenido" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Drone Lab Bolivia" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Drone Lab Bolivia" [ref=e6]
+      - generic [ref=e7]:
+        - navigation "Navegacion principal" [ref=e8]:
+          - list [ref=e9]:
+            - listitem [ref=e10]:
+              - link "Contribuye" [ref=e11] [cursor=pointer]:
+                - /url: /contribuye
+            - listitem [ref=e12]:
+              - link "Acerca de" [ref=e13] [cursor=pointer]:
+                - /url: /acerca-de
+            - listitem [ref=e14]:
+              - link "Noticias" [ref=e15] [cursor=pointer]:
+                - /url: /noticias
+        - button "Cambiar tema" [ref=e16] [cursor=pointer]:
+          - img [ref=e17]
+  - main [ref=e19]:
+    - main [ref=e20]:
+      - generic [ref=e25]:
+        - generic [ref=e26]: Líderes en Tecnología Drone
+        - heading "Innovación Desde el Cielo" [level=1] [ref=e27]:
+          - text: Innovación
+          - text: Desde el Cielo
+        - paragraph [ref=e28]: Exploramos nuevas fronteras en agricultura, urbanismo y conservación utilizando tecnología drone de vanguardia para transformar realidades en Bolivia.
+        - generic [ref=e29]:
+          - link "Conoce más" [ref=e30] [cursor=pointer]:
+            - /url: /acerca-de
+          - link "Ver proyectos" [ref=e31] [cursor=pointer]:
+            - /url: /noticias
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - heading "Uniendo Tecnología e Impacto Social" [level=2] [ref=e35]
+          - paragraph [ref=e37]: Bolivia Flying Labs democratiza el acceso a la tecnología drone, aplicándola en proyectos que generan un cambio real y sostenible.
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - generic [ref=e40]: "01"
+            - heading "Agricultura" [level=3] [ref=e41]
+            - paragraph [ref=e42]: Optimizamos la gestión ganadera y agrícola con mapeo de precisión y análisis de datos geoespaciales críticos.
+          - generic [ref=e43]:
+            - generic [ref=e44]: "02"
+            - heading "Medio Ambiente" [level=3] [ref=e45]
+            - paragraph [ref=e46]: Prevenimos incendios forestales en la Chiquitanía con sistemas avanzados de monitoreo aéreo y alerta temprana.
+          - generic [ref=e47]:
+            - generic [ref=e48]: "03"
+            - heading "Educación" [level=3] [ref=e49]
+            - paragraph [ref=e50]: Capacitamos a las nuevas generaciones en modelos de negocio basados en drones para el desarrollo local.
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - generic [ref=e55]: "+500"
+          - generic [ref=e56]: Hectáreas Mapeadas
+        - generic [ref=e57]:
+          - generic [ref=e58]: "+120"
+          - generic [ref=e59]: Jóvenes Capacitados
+        - generic [ref=e60]:
+          - generic [ref=e61]: "+15"
+          - generic [ref=e62]: Proyectos Activos
+        - generic [ref=e63]:
+          - generic [ref=e64]: 100%
+          - generic [ref=e65]: Impacto Social
+  - contentinfo [ref=e66]:
+    - generic [ref=e67]:
+      - generic:
+        - link:
+          - /url: /
+      - generic [ref=e68]:
+        - paragraph [ref=e69]: © 2026 Drone Lab Bolivia
+        - paragraph [ref=e70]:
+          - text: Powered by
+          - link "Zoftco" [ref=e71] [cursor=pointer]:
+            - /url: https://zoftco.com
