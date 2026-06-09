@@ -3,8 +3,8 @@ title: "Firehawk: Pioneering Accessible Technology for a Sustainable Future"
 date: 2023-11-01
 author: dronelabadmin
 category: Proyectos
-featuredImage: /images/logo/drone-lab-bolivia-logo.png
-featuredImageAlt: "Proyecto Firehawk - Roboré"
+featuredImage: /images/uploads/2023/11/firehawk-el-porton-monitoring.jpg
+featuredImageAlt: "Equipo de Firehawk monitoreando el área sensible de El Portón para prevenir incendios forestales"
 ---
 
 **Join Us for the Upcoming Webinar to Learn More!**

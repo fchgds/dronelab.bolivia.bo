@@ -3,8 +3,8 @@ title: "Explorando Nuevas Fronteras en la Ganadería con Tecnología Drone"
 date: 2024-12-10
 author: dronelabadmin
 category: Ganadería
-featuredImage: /images/logo/drone-lab-bolivia-logo.png
-featuredImageAlt: "Drones en Ganadería"
+featuredImage: /images/uploads/2024/12/ganaderia-modelo-aereo-la-nina.jpg
+featuredImageAlt: "Modelo aéreo generado con datos drone para el proyecto ganadero La Niña"
 ---
 
 En el marco de la modernización del sector ganadero en Bolivia, Bolivia Flying Labs y la Federación de Ganaderos de Santa Cruz (FEGASACRUZ) han dado un paso trascendental hacia la incorporación de tecnología drone en la gestión productiva. Esta alianza estratégica busca potenciar la eficiencia y sostenibilidad del sector mediante el uso de herramientas innovadoras. El primer gran logro en esta dirección fue el establecimiento de un acuerdo de intención de alianza entre Bolivia Flying Labs y FEGASACRUZ, logrado en una reunión clave con el presidente de la organización. Este hito marca el inicio de una colaboración orientada a la implementación de tecnologías avanzadas para el beneficio de los productores ganaderos de la región.

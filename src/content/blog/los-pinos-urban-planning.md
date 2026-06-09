@@ -3,8 +3,8 @@ title: "Drones y Urbanismo: Innovando en la Planificación de Los Pinos"
 date: 2025-01-15
 author: dronelabadmin
 category: Urbanismo
-featuredImage: /images/logo/drone-lab-bolivia-logo.png
-featuredImageAlt: "Drones en Los Pinos"
+featuredImage: /images/uploads/2025/01/los-pinos-planificacion-aerea.jpg
+featuredImageAlt: "Vista aérea de caminos y terreno para la planificación urbana de Los Pinos"
 ---
 
 El avance de la tecnología drone continúa revolucionando diversas industrias, y el sector inmobiliario no es la excepción. En este contexto, Bolivia Flying Labs ha dado un importante paso al consolidar una colaboración estratégica con el proyecto Urbanización Los Pinos, el desarrollo inmobiliario más relevante del municipio de Warnes. El primer gran hito de esta colaboración fue el establecimiento de un acuerdo oral de intención de trabajo conjunto, con el objetivo de incorporar la tecnología drone en la planificación y desarrollo del proyecto. Esta iniciativa busca optimizar la toma de decisiones, mejorar la eficiencia en la gestión del terreno y aportar datos precisos para la expansión de la urbanización.

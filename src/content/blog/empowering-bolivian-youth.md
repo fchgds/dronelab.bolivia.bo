@@ -3,8 +3,8 @@ title: "Drones in Business: Empowering Bolivian Youth to Take Flight"
 date: 2024-10-20
 author: dronelabadmin
 category: Educación
-featuredImage: /images/logo/drone-lab-bolivia-logo.png
-featuredImageAlt: "Jóvenes capacitándose en drones"
+featuredImage: /images/uploads/2024/10/emprendimiento-con-drones-jovenes.jpg
+featuredImageAlt: "Jóvenes participantes del taller de emprendimiento con drones"
 ---
 
 At Bolivia Flying Labs, we recognize that training is a cornerstone of our mission to empower local communities through the use of drone technology. By providing accessible and relevant educational opportunities, we are investing in the development of future generations, fostering inclusive participation, and facilitating the shared knowledge that drives community empowerment.

@@ -3,8 +3,8 @@ title: "“It Takes a Village to Build a Successful Network of Driven Experts”
 date: 2021-09-30
 author: dronelabadmin
 category: Comunidad
-featuredImage: /images/logo/drone-lab-bolivia-logo.png
-featuredImageAlt: "Comunidad Flying Labs"
+featuredImage: /images/uploads/2021/09/flying-labs-latam-retreat-members.jpg
+featuredImageAlt: "Miembros de Flying Labs de Latinoamérica reunidos en Bolivia"
 ---
 
 **Bolivia Flying Labs reflects on the massive support they have received from Flying Labs members since joining the Network.**
