@@ -3,7 +3,7 @@ title: "FEXPO Pinos Event / Nota de Prensa"
 date: 2025-03-17
 author: dronelabadmin
 category: Eventos
-featuredImage: /images/uploads/2025/03/fexpo-pinos-equipo-wingtra.jpg
+featuredImage: /images/uploads/2025/03/fexpo-pinos-equipo-wingtra.webp
 featuredImageAlt: "Equipo de Bolivia Flying Labs presentando el drone Wingtra en FEXPO Pinos"
 ---
 

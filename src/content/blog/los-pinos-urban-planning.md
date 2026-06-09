@@ -3,7 +3,7 @@ title: "Drones y Urbanismo: Innovando en la Planificación de Los Pinos"
 date: 2025-01-15
 author: dronelabadmin
 category: Urbanismo
-featuredImage: /images/uploads/2025/01/los-pinos-planificacion-aerea.jpg
+featuredImage: /images/uploads/2025/01/los-pinos-planificacion-aerea.webp
 featuredImageAlt: "Vista aérea de caminos y terreno para la planificación urbana de Los Pinos"
 ---
 

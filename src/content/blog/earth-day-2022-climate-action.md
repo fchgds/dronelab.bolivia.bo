@@ -3,7 +3,7 @@ title: "EARTH DAY 2022: Prevent Forest Fires in Chiquitanía"
 date: 2022-04-22
 author: dronelabadmin
 category: Medio Ambiente
-featuredImage: /images/uploads/2022/04/bolivia-unida-por-el-planeta.jpg
+featuredImage: /images/uploads/2022/04/bolivia-unida-por-el-planeta.webp
 featuredImageAlt: "Bolivia unida por el planeta para el Wingtra Earth Day Challenge"
 ---
 

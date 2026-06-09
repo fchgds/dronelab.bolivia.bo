@@ -3,7 +3,7 @@ title: "Explorando Nuevas Fronteras en la Ganadería con Tecnología Drone"
 date: 2024-12-10
 author: dronelabadmin
 category: Ganadería
-featuredImage: /images/uploads/2024/12/ganaderia-modelo-aereo-la-nina.jpg
+featuredImage: /images/uploads/2024/12/ganaderia-modelo-aereo-la-nina.webp
 featuredImageAlt: "Modelo aéreo generado con datos drone para el proyecto ganadero La Niña"
 ---
 

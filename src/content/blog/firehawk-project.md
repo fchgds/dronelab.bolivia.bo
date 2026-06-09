@@ -3,7 +3,7 @@ title: "Firehawk: Pioneering Accessible Technology for a Sustainable Future"
 date: 2023-11-01
 author: dronelabadmin
 category: Proyectos
-featuredImage: /images/uploads/2023/11/firehawk-el-porton-monitoring.jpg
+featuredImage: /images/uploads/2023/11/firehawk-el-porton-monitoring.webp
 featuredImageAlt: "Equipo de Firehawk monitoreando el área sensible de El Portón para prevenir incendios forestales"
 ---
 
